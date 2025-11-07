@@ -1,2 +1,17 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Normalize line endings
+* text=auto eol=lf
+
+# Treat these files as text and enable optimized diff in GitHub web
+*.blade.php diff=html
+*.html diff=html
+*.md diff=markdown
+*.css diff=css
+*.scss diff=css
+*.js diff=javascript
+*.php diff=php
+
+# Ignore unnecessary files when exporting (composer archive, GitHub downloads, etc.)
+/.github export-ignore
+CHANGELOG.md export-ignore
+.styleci.yml export-ignore
+.env.example export-ignore
