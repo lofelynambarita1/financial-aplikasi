@@ -53,9 +53,10 @@
 
             <div class="divider"></div>
 
+            {{-- Link ke Login --}}
             <p class="text-center mb-0">
                 <span class="text-muted">Sudah memiliki akun?</span>
-                <a href="{{ route('auth.login') }}" class="auth-link ms-1">Masuk</a>
+                <a href="{{ route('auth.login') }}" class="auth-link ms-1">Masuk Sekarang</a>
             </p>
         </div>
     </div>
